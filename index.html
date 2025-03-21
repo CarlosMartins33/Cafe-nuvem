@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="assets/imges/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <title>Café Nuvem</title>
+</head>
+
+<body>
+
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">CAFÉ NUVEM</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">INÍCIO</a>
+               </li>
+
+               <li>
+                  <a href="#popular" class="nav__link">POPULARES</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="nav__link">SOBRE NÓS</a>
+               </li>
+
+               <li>
+                  <a href="#products" class="nav__link">PRODUTOS</a>
+               </li>
+
+               <li>
+                  <a href="#contact" class="nav__link">CONTATOS</a>
+               </li>
+            </ul>
+
+            <!-- close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-fill"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <h1 class="home__title">CAFÉ NUVEM</h1>
+
+            <div class="home__images">
+               <div class="home__shape"></div>
+               <img src="assets/images/home-splash.png" alt="image" class="home__splash">
+               <img src="assets/images/bean-img.png" alt="image" class="home__bean-2">
+               <img src="assets/images/home-coffee.png" alt="image" class="home__coffee">
+               <img src="assets/images/bean-img.png" alt="image" class="home__bean-1">
+               <img src="assets/images/ice-img.png" alt="image" class="home__ice-1">
+               <img src="assets/images/ice-img.png" alt="image" class="home__ice-2">
+               <img src="assets/images/leaf-img.png" alt="image" class="home__leaf">
+            </div>
+
+            <img src="assets/images/home-sticker.svg" alt="image" class="home__sticker">
+
+            <div class="home__data">
+               <p class="home__description">
+                  Encontre deliciosos cafés quentes e frios com as melhores variedades, acalme o prazer e desfrute
+                  um bom café, peça agora.
+               </p>
+
+               <a href="#about" class="button">Saiba mais</a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+         <div class="polupar__container container">
+            <h2 class="section__title">MAIS <br> POPULARES</h2>
+
+            <div class="popular__swiper swiper">
+               <div class="swiper-wrapper">
+                  <article class="popular__card swiper-slide">
+                     <div class="popular__images">
+                        <div class="popular__shape"></div>
+                        <img src="assets/images/bean-img.png" alt="image" class="popular__bean-1">
+                        <img src="assets/images/bean-img.png" alt="image" class="popular__bean-2">
+                        <img src="assets/images/popular-coffee-1.png" alt="image" class="popular__coffee">
+                     </div>
+
+                     <div class="popular__data">
+                        <h2 class="popular__name">CAFÉ BAUNILHA</h2>
+
+                        <p class="popular__description">
+                           Delicie-se com a simplicidade do nosso delicioso café gelado.
+                        </p>
+
+                        <a href="#contact" class="button button-dark">Peça agora: R$19,90</a>
+                     </div>
+                  </article>
+
+                  <article class="popular__card swiper-slide">
+                     <div class="popular__images">
+                        <div class="popular__shape"></div>
+                        <img src="assets/images/bean-img.png" alt="image" class="popular__bean-1">
+                        <img src="assets/images/bean-img.png" alt="image" class="popular__bean-2">
+                        <img src="assets/images/popular-coffee-2.png" alt="image" class="popular__coffee">
+                     </div>
+
+                     <div class="popular__data">
+                        <h2 class="popular__name">CAFÉ CLÁSSICO</h2>
+
+                        <p class="popular__description">
+                           Delicie-se com a simplicidade do nosso delicioso café gelado.
+                        </p>
+
+                        <a href="#contact" class="button button-dark">Peça agora: R$19.90</a>
+                     </div>
+                  </article>
+
+                  <article class="popular__card swiper-slide">
+                     <div class="popular__images">
+                        <div class="popular__shape"></div>
+                        <img src="assets/images/bean-img.png" alt="image" class="popular__bean-1">
+                        <img src="assets/images/bean-img.png" alt="image" class="popular__bean-2">
+                        <img src="assets/images/popular-coffee-3.png" alt="image" class="popular__coffee">
+                     </div>
+
+                     <div class="popular__data">
+                        <h2 class="popular__name">CAFÉ COM LEITE</h2>
+
+                        <p class="popular__description">
+                           Delicie-se com a simplicidade do nosso delicioso café gelado.
+                        </p>
+
+                        <a href="#contact" class="button button-dark">Peça agora: $19.90</a>
+                     </div>
+                  </article>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container grid">
+            <div class="about__data">
+               <h2 class="section__title">SAIBA MAIS <br> SOBRE NÓSS</h2>
+
+               <p class="about__description">
+                  Bem-vindo ao StarCoffee, onde o café é pura paixão.
+                  Do feijão à xícara, nos dedicamos a entregar
+                  excelência em cada gole. Junte-se a nós em uma jornada de
+                  sabor e qualidade, elaborados com amor para criar o
+                  experiência definitiva em café.
+               </p>
+
+               <a href="#popular" class="button">Melhores cafés</a>
+            </div>
+
+            <div class="about__images">
+               <div class="about__shape"></div>
+               <img src="assets/images/leaf-img.png" alt="image" class="about__leaf-1">
+               <img src="assets/images/leaf-img.png" alt="image" class="about__leaf-2">
+               <img src="assets/images/about-coffee.png" alt="image" class="about__coffee">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+         <h2 class="section__title">OS MAIS <br> PEDIDOS</h2>
+
+         <div class="products__container container grid">
+            <article class="products__card">
+               <div class="products__images">
+                  <div class="products__shape"></div>
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-1">
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-2">
+                  <img src="assets/images/products-coffee-1.png" alt="image" class="products__coffee">
+               </div>
+
+               <div class="products__data">
+                  <h3 class="products__name">CAFÉ GELADO</h3>
+
+                  <span class="products__price">R$15.90</span>
+
+                  <button class="products__button">
+                     <i class="ri-shopping-bag-4-fill"></i>
+                  </button>
+               </div>
+            </article>
+
+            <article class="products__card">
+               <div class="products__images">
+                  <div class="products__shape"></div>
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-1">
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-2">
+                  <img src="assets/images/products-coffee-2.png" alt="image" class="products__coffee">
+               </div>
+
+               <div class="products__data">
+                  <h3 class="products__name">CAFÉ COM CREME</h3>
+
+                  <span class="products__price">R$11.90</span>
+
+                  <button class="products__button">
+                     <i class="ri-shopping-bag-4-fill"></i>
+                  </button>
+               </div>
+            </article>
+
+            <article class="products__card">
+               <div class="products__images">
+                  <div class="products__shape"></div>
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-1">
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-2">
+                  <img src="assets/images/products-coffee-3.png" alt="image" class="products__coffee">
+               </div>
+
+               <div class="products__data">
+                  <h3 class="products__name">CAPPUCCINO</h3>
+
+                  <span class="products__price">R$19.90</span>
+
+                  <button class="products__button">
+                     <i class="ri-shopping-bag-4-fill"></i>
+                  </button>
+               </div>
+            </article>
+
+            <article class="products__card">
+               <div class="products__images">
+                  <div class="products__shape"></div>
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-1">
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-2">
+                  <img src="assets/images/products-coffee-4.png" alt="image" class="products__coffee">
+               </div>
+
+               <div class="products__data">
+                  <h3 class="products__name">CAFÉ COM LEITE</h3>
+
+                  <span class="products__price">R$9.90</span>
+
+                  <button class="products__button">
+                     <i class="ri-shopping-bag-4-fill"></i>
+                  </button>
+               </div>
+            </article>
+
+            <article class="products__card">
+               <div class="products__images">
+                  <div class="products__shape"></div>
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-1">
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-2">
+                  <img src="assets/images/products-coffee-5.png" alt="image" class="products__coffee">
+               </div>
+
+               <div class="products__data">
+                  <h3 class="products__name">CAFÉ GELADO CLÁSSICO</h3>
+
+                  <span class="products__price">R$5.90</span>
+
+                  <button class="products__button">
+                     <i class="ri-shopping-bag-4-fill"></i>
+                  </button>
+               </div>
+            </article>
+
+            <article class="products__card">
+               <div class="products__images">
+                  <div class="products__shape"></div>
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-1">
+                  <img src="assets/images/ice-img.png" alt="image" class="products__ice-2">
+                  <img src="assets/images/products-coffee-6.png" alt="image" class="products__coffee">
+               </div>
+
+               <div class="products__data">
+                  <h3 class="products__name">>CAFÉ GELADO</h3>
+
+                  <span class="products__price">R$16.90</span>
+
+                  <button class="products__button">
+                     <i class="ri-shopping-bag-4-fill"></i>
+                  </button>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">CONTATE-NOS</h2>
+
+         <div class="contact__container container grid">
+            <div class="contact__info grid">
+               <div class="flex-1">
+                  <h3 class="contact__title">Fale Conosco</h3>
+
+                  <div class="contact__social">
+                     <a href="https://api.whatsapp.com/send?phone=&text=Hello, more information!" target="_blank" class="contact__social-link">
+                        <i class="ri-whatsapp-fill"></i>
+                     </a>
+
+                     <a href="https://m.me/" target="_blank" class="contact__social-link">
+                        <i class="ri-messenger-fill"></i>
+                     </a>
+
+                     <a href="https://t.me/telegram" target="_blank" class="contact__social-link">
+                        <i class="ri-telegram-2-fill"></i>
+                     </a>
+                  </div>
+
+               </div>
+
+               <div class="contact__info grid">
+                  <div>
+                     <h3 class="contact__title">Localização</h3>
+
+                     <address class="contact__address">
+                        Rua Logo Ali <br>
+                        Av. Da esquina n99
+                     </address>
+
+
+                     <a href="https://maps.app.goo.gl/v23sjesDaCeVDzqW7" class="contact__map">
+                        <i class="ri-map-pin-fill"></i>
+                        <span>Ver no mapa</span>
+                     </a>
+                  </div>
+
+
+                  <div class="contact__info grid">
+                     <div>
+                        <h3 class="contact__title">Entregas</h3>
+
+                        <address class="contact__address">
+                           +00-999-9999-999 <br>
+                           +99-999999
+                        </address>
+                     </div>
+
+                     <div>
+                        <h3 class="contact__title">Atenção</h3>
+
+                        <address class="contact__address">
+                           Segunda-feira - Sábado <br> 09:00 - 12:00
+                        </address>
+                     </div>
+                  </div>
+
+                  <div class="contact__images">
+                     <div class="contact__shape"></div>
+                     <img src="assets/images/contact-delivery.png" alt="image" class="contact__delivery">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div>
+            <h3 class="footer__title">Redes Sociais</h3>
+
+            <div class="footer__social">
+               <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-facebook-circle-fill"></i>
+               </a>
+
+               <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-instagram-fill"></i>
+               </a>
+
+               <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                  <i class="ri-twitter-x-line"></i>
+               </a>
+            </div>
+         </div>
+
+         <div>
+            <h3 class="footer__title">Métodos de pagamento</h3>
+
+            <div class="footer__pay">
+               <img src="assets/images/footer-card-1.png" alt="image" class="footer_pay-card">
+               <img src="assets/images/footer-card-2.png" alt="image" class="footer_pay-card">
+               <img src="assets/images/footer-card-3.png" alt="image" class="footer_pay-card">
+               <img src="assets/images/footer-card-4.png" alt="image" class="footer_pay-card">
+            </div>
+         </div>
+
+         <div>
+            <h3 class="footer__title">Inscreva-se para descontos</h3>
+
+            <form action="" class="footer__form">
+               <input type="email" placeholder="Email" class="footer__input">
+               <button type="submit" class="footer__button button">Inscrever</button>
+            </form>
+         </div>
+      </div>
+
+      <span class="footer__copy">
+         Cadé Nuvem &#169; Todos os direitos reservados
+      </span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="assets/js/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets\js\main.js"></script>
+</body>
+
+</html>
