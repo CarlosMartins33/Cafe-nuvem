@@ -97,7 +97,6 @@ img {
   height: auto;
 }
 
-/*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -123,7 +122,6 @@ img {
   overflow: hidden;
 }
 
-/*=============== HEADER & NAV ===============*/
 header {
   position: fixed;
   width: 100%;
@@ -160,8 +158,6 @@ header {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
-/* Navigation for mobile devices */
 
 @media screen and (max-width: 1150px) {
   .nav__menu {
@@ -200,22 +196,18 @@ header {
   right: 1.5rem;
 }
 
-/* Show menu */
 .show-menu {
   top: 0;
 }
 
-/* Add shadow header */
 .shadow-header {
   box-shadow: 0 4px 16px hsla(166, 85%, 80%, 0.3);
 }
 
-/* Active link */
 .active-link {
   color: var(--first-color);
 }
 
-/*=============== HOME ===============*/
 .home__container {
   position: relative;
   padding-top: 3rem;
@@ -317,7 +309,6 @@ header {
   margin-bottom: 1.5rem;
 }
 
-/*=============== BUTTON ===============*/
 .button {
   display: inline-flex;
   justify-content: center;
@@ -341,7 +332,6 @@ header {
   background-color: var(--dark-color);
 }
 
-/*=============== POPULAR ===============*/
 .popular {
   background-color: var(--body-white-color);
 }
@@ -424,12 +414,11 @@ header {
   transform: translate(0.5rem, -0.25rem);
 }
 
-/* Swiper class */
 .swiper {
   overflow: visible;
   margin-inline: initial;
 }
-/*=============== ABOUT ===============*/
+
 .about__container {
   row-gap: 3rem;
 }
@@ -484,7 +473,6 @@ header {
   rotate: -15deg;
 }
 
-/*=============== PRODUCTS ===============*/
 .products {
   background-color: var(--body-first-color);
 }
@@ -587,7 +575,6 @@ header {
   transform: translate(-0.5rem, -0.5rem);
 }
 
-/*=============== CONTACT ===============*/
 .contact .section__title {
   color: var(--white-color);
 }
@@ -666,7 +653,6 @@ header {
   );
 }
 
-/*=============== FOOTER ===============*/
 .footer {
   background-color: var(--body-first-color);
   padding-block: 4rem 2rem;
@@ -734,7 +720,6 @@ header {
   font-size: var(--small-font-size);
 }
 
-/*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: 0.6rem;
   background-color: hsl(166, 20%, 30%);
@@ -748,7 +733,6 @@ header {
   background-color: hsl(166, 20%, 50%);
 }
 
-/*=============== SCROLL UP ===============*/
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -771,8 +755,6 @@ header {
   bottom: 3rem;
 }
 
-/*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 330px) {
   .container {
     margin-inline: 1rem;
@@ -827,7 +809,6 @@ header {
   }
 }
 
-/* For medium devices */
 @media screen and (min-width: 576px) {
   .home__container,
   .about__container {
@@ -880,7 +861,6 @@ header {
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 1150px) {
   .container {
     margin-inline: auto;
@@ -1178,7 +1158,7 @@ header {
     right: 3rem;
   }
 }
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+
 @media screen and (min-width: 2048px) {
   body {
     zoom: 1.3;

@@ -1,4 +1,3 @@
-/*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
@@ -15,7 +14,6 @@ if (navClose) {
   });
 }
 
-/*=============== REMOVE MENU MOBILE ===============*/
 const navLink = document.querySelectorAll(".nav__link");
 
 const linkAction = () => {
@@ -24,7 +22,6 @@ const linkAction = () => {
 };
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
-/*=============== ADD SHADOW HEADER ===============*/
 const shadowHeader = () => {
   const header = document.getElementById("header");
   this.scrollY >= 50
@@ -33,7 +30,6 @@ const shadowHeader = () => {
 };
 window.addEventListener("scroll", shadowHeader);
 
-/*=============== SWIPER POPULAR ===============*/
 const swiperPopular = new Swiper(".popular__swiper", {
   loop: true,
   grabCursor: true,
@@ -47,7 +43,7 @@ const swiperPopular = new Swiper(".popular__swiper", {
     },
   },
 });
-/*=============== SHOW SCROLL UP ===============*/
+
 const scrollUp = () => {
   const scrollUp = document.getElementById("scroll-up");
 
@@ -57,7 +53,6 @@ const scrollUp = () => {
 };
 window.addEventListener("scroll", scrollUp);
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
 
 const scrollActive = () => {
@@ -80,7 +75,6 @@ const scrollActive = () => {
 };
 window.addEventListener("scroll", scrollActive);
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
   origin: "top",
   distance: "60px",
